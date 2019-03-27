@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Insert a Pet" HorizontalAlignment="Left" Margin="104,132,0,0" VerticalAlignment="Top" Width="180" Height="30" Click="Btn_InsertPet"/>
+        <Button Content="Insert an Owner" HorizontalAlignment="Left" Margin="104,168,0,0" VerticalAlignment="Top" Width="180" Height="30" Click="Btn_InsertOwner"/>
+        <Button Content="Show all Pets" HorizontalAlignment="Left" Margin="104,203,0,0" VerticalAlignment="Top" Width="180" Height="30" Click="Btn_ShowPets"/>
+        <Button Content="Find Owner by LastName" HorizontalAlignment="Left" Margin="104,243,0,0" VerticalAlignment="Top" Width="180" Height="30" Click="Btn_FindOwner"/>
+        <Button Content="Exit Program" HorizontalAlignment="Left" Margin="497,338,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Btn_ExitProgram"/>
     </Grid>
 </Window>
