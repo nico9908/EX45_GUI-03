@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,7 +57,7 @@ namespace EX45_GUI_03
             }
             else
             {
-                Environment.Exit(0);
+                Application.Current.Shutdown();
             }
         }
     }
