@@ -1,18 +1,17 @@
 ﻿<Window x:Class="EX45_GUI_03.MainWindow"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResizeWithGrip"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EX45_GUI_03"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Background="#252F35"
         WindowStartupLocation="CenterScreen"
-        ResizeMode="CanResize">
-    <Grid>
-        <Button Content="Insert a Pet" HorizontalAlignment="Center" Margin="193,101,420.6,289" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_InsertPet"/>
-        <Button Content="Insert an Owner" HorizontalAlignment="Center" Margin="193,160,420.6,230" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_InsertOwner"/>
-        <Button Content="Show all Pets" HorizontalAlignment="Center" Margin="193,216,420.6,174" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_ShowPets"/>
-        <Button Content="Find Owner by LastName" HorizontalAlignment="Center" Margin="193,270,420.6,120" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_FindOwner"/>
-        <Button Content="Exit Program" HorizontalAlignment="Center" Margin="560,322,133.6,48" VerticalAlignment="Center" Width="100" Height="50" Click="Btn_ExitProgram"/>
-    </Grid>
+        WindowState="Normal"
+        Title="EX45_GUI_03.MainWindow" 
+        Height="600" Width="1200"
+        MinHeight="500"
+        MinWidth="800">
 </Window>

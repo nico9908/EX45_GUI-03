@@ -27,8 +27,7 @@ namespace EX45_GUI_03
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainMenu = new MainWindow();
-            this.Content = mainMenu;
+            Application.Current.MainWindow.Content = new StartPage();
         }
     }
 }
