@@ -31,17 +31,17 @@ namespace EX45_GUI_03
 
         private void Btn_InsertOwner(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.MainWindow.Content = new InsertOwner();
         }
 
         private void Btn_ShowPets(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.MainWindow.Content = new ShowPets();
         }
 
         private void Btn_FindOwner(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.MainWindow.Content = new FindOwner();
         }
 
         private void Btn_ExitProgram(object sender, RoutedEventArgs e)

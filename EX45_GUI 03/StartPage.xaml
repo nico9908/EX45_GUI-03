@@ -9,6 +9,7 @@
       Title="StartPage">
 
     <Grid>
+        <Label Name="Header_Label" FontFamily="Verdana Pro SemiBold" Foreground="GhostWhite" Content="Dyrlægens klinik" FontSize="50" HorizontalAlignment="Center" Margin="10,10,40,0" VerticalAlignment="Top"/>
         <Button Content="Insert a Pet" HorizontalAlignment="Center" Margin="193,101,420.6,289" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_InsertPet"/>
         <Button Content="Insert an Owner" HorizontalAlignment="Center" Margin="193,160,420.6,230" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_InsertOwner"/>
         <Button Content="Show all Pets" HorizontalAlignment="Center" Margin="193,216,420.6,174" VerticalAlignment="Center" Width="180" Height="30" Click="Btn_ShowPets"/>
