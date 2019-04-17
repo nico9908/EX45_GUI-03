@@ -20,6 +20,7 @@ namespace EX45_GUI_03
     /// </summary>
     public partial class ShowPets : Page
     {
+        Controller cont = new Controller();
         public ShowPets()
         {
             InitializeComponent();
@@ -27,6 +28,16 @@ namespace EX45_GUI_03
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.MainWindow.Content = new StartPage();
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            cont.ShowPets();
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            cont.ShowPets();
         }
     }
 }
