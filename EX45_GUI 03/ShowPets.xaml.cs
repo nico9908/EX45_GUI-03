@@ -39,5 +39,10 @@ namespace EX45_GUI_03
         {
             cont.ShowPets();
         }
+
+        private void DataGrid_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+            cont.ShowPets();
+        }
     }
 }

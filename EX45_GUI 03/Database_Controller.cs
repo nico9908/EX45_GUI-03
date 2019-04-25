@@ -10,7 +10,7 @@ namespace EX45_GUI_03
 {
     public class Database_Controller
     {
-        private static string connectionString =
+        private string connectionString =
         "Server = ealSQL1.eal.local; Database = A_DB27_2018; User Id = A_STUDENT27; Password = A_OPENDB27;";
 
         public void InsertPet(Pet pet)

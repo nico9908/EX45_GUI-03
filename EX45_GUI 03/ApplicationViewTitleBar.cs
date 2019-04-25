@@ -9,8 +9,13 @@ namespace EX45_GUI_03
 {
     public sealed class ApplicationViewTitleBar : IApplicationViewTitleBar
     {
-        public Nullable<Color> BackgroundColor { get; set; }
+        public Nullable<Black> BackgroundColor { get; set; }
         public Nullable<Color> ForegroundColor { get; set; }
+    }
+
+    public struct Black
+    {
+
     }
 
     public interface IApplicationViewTitleBar
